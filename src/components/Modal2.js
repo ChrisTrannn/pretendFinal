@@ -7,7 +7,7 @@ const Modal2 = ({closeModal2}) => {
             <div className='body'>
                 
             </div>
-            <button onClick={() => closeModal2(false)}> Close </button>
+            <button className='modalClose' onClick={() => closeModal2(false)}> Close </button>
         </div>
     )
 }
