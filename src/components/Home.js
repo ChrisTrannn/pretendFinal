@@ -5,6 +5,8 @@ import beachCartoon from '../assets/beachCartoon.jpg';
 import marinaCartoon from '../assets/marinaCartoon.jpg'
 import constructionCartoon from '../assets/constructionCartoon.jpg'
 import traderJoesCartoon from '../assets/traderJoesCartoon.jpeg'
+import mapIcon from '../assets/mapIcon.png'
+import peopleIcon from '../assets/peopleIcon.png'
 
 const Home = () => {
   return (
@@ -47,12 +49,16 @@ const Home = () => {
         <div className="title">Information</div>
         <div className="infoCards">
             <div className="infoCard">
-                <img></img>
+                <span class="dot">
+                    <img src={mapIcon}></img>
+                </span>
                 <div className="infoCardTitle">Map of Museum</div>
                 <div className='infoCardText'>Click to view Tap2Play signs in the museum</div>
             </div>
             <div className='infoCard'>
-            <img></img>
+                <span class="dot">
+                    <img src={peopleIcon}></img>
+                </span>
                 <div className="infoCardTitle">About Tap2Play</div>
                 <div className='infoCardText'>Click to learn more about the Tap2Play team</div>
             </div>

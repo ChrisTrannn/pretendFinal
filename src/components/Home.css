@@ -20,7 +20,7 @@
     font-weight: bold;
     font-size: 1.2em;
     color: #51504C;
-    margin-left: 1em;
+    margin-left: 1.5em;
 }
 
 .learningCards {
@@ -61,4 +61,77 @@
 .videoContainer video {
     width: 95%;
     border-radius: 20px;
+}
+
+/* information styling */
+.infoCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 0em;
+    color: white;
+}
+
+.infoCard {
+    background-color: #F7C359;
+    border-radius: 20px;
+    width: 10.5em;
+    height: 13em;
+    box-shadow: 0.3em 0.3em 1em gray;
+}
+
+.dot {
+    height: 5em;
+    width: 5em;
+    background-color: white;
+    border-radius: 200%;
+    margin: 1em;
+    
+    /* center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.infoCard img {
+    width: 2em;
+    height: 2em;
+}
+
+.infoCardTitle {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.infoCardText {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0.3em;
+}
+
+/* why adults should tap2play */
+.adultsCard {
+    background-color: #43A7E0;
+    border-radius: 20px;
+    width: 21.5em;
+    height: 22em;
+    margin-left: 1.5em;
+    box-shadow: 0.3em 0.3em 1em gray;
+    color: white;
+}
+
+.adultsCardTitle {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0.7em 0.7em 0em 0.7em;
+}
+
+.adultsCardText {
+    font-size: 1em;
+    padding: 1em;
 }
