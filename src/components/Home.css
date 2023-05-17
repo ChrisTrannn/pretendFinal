@@ -1,0 +1,64 @@
+/* header styling */
+.tap2playlogo {
+    width: 4.5em;
+}
+
+.headerTitle {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #51504C;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+}
+
+/* learning zone styling */
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #51504C;
+    margin-left: 1em;
+}
+
+.learningCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 0em;
+}
+
+.learningCards img {
+    width: 8.5em;
+    height: 6em;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+.learningCard {
+    background-color: #43A7E0;
+    border-radius: 20px;
+    width: 10.5em;
+    height: 10.5em;
+    box-shadow: 0.3em 0.3em 1em gray;
+}
+
+.learningCardTitle {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* how it works styling */
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.videoContainer video {
+    width: 95%;
+    border-radius: 20px;
+}
