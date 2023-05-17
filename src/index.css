@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* my styling */
+html {
+  background-color: #F8F2EB;
+  font-family: 'Inter';
+  color: black;
+}
