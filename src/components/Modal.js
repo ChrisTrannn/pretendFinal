@@ -6,9 +6,9 @@ const Modal = ({closeModal}) => {
     return (
         <div className='modal'>
             <div className='body'>
-                <img src={pretendMap}></img>
+                <img className='modalBtn' src={pretendMap}></img>
             </div>
-            <button onClick={() => closeModal(false)}> Close </button>
+            <button className='modalClose' onClick={() => closeModal(false)}> Close </button>
         </div>
     )
 }
