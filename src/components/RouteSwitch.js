@@ -11,6 +11,7 @@ const RouteSwitch = () => {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/marina" element={<Marina />} />
         <Route path="/beach" element={<Beach />} />
         <Route path="/construction" element={<Construction />} />
