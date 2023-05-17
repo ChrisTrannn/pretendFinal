@@ -1,0 +1,36 @@
+.modal img {
+    border-radius: 20px;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    position: fixed;
+    top: 35%;
+    right: 10%;
+    border: 2px solid black;
+}
+
+.body {
+    border-radius: 20px;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    position: fixed;
+    top: 35%;
+    right: 10%;
+    border: 2px solid black;
+}
+
+button {
+    border-radius: 15px;
+    background-color: #F7C359;
+    color: white;
+    border: none;
+    width: 7em;
+    height: 2em;
+    font-weight: 300;
+    margin: 1em;
+
+    position: fixed;
+    top: 73%;
+    right: 40%;
+}

@@ -8,6 +8,9 @@ import traderJoesCartoon from '../assets/traderJoesCartoon.jpeg'
 import mapIcon from '../assets/mapIcon.png'
 import peopleIcon from '../assets/peopleIcon.png'
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import Modal from './Modal';
+import Modal2 from './Modal2';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -15,6 +18,9 @@ const Home = () => {
     const handleClick = (route) => {
         navigate(route, { replace: true });
     };
+
+    const [openModal, setOpenModal] = useState(false);
+    const [openModal2, setOpenModal2] = useState(false);
 
     return (
         <div>
@@ -55,20 +61,22 @@ const Home = () => {
 
             <div className="title">Information</div>
             <div className="infoCards">
-                <div className="infoCard">
+                <div className="infoCard" onClick={() => setOpenModal(true)}>
                     <span class="dot">
                         <img src={mapIcon}></img>
                     </span>
                     <div className="infoCardTitle">Map of Museum</div>
                     <div className='infoCardText'>Click to view Tap2Play signs in the museum</div>
                 </div>
-                <div className='infoCard'>
+                {openModal && <Modal closeModal={setOpenModal}/>}
+                <div className='infoCard' onClick={() => setOpenModal2(true)}>
                     <span class="dot">
                         <img src={peopleIcon}></img>
                     </span>
                     <div className="infoCardTitle">About Tap2Play</div>
                     <div className='infoCardText'>Click to learn more about the Tap2Play team</div>
                 </div>
+                {openModal2 && <Modal2 closeModal2={setOpenModal2}/>}
             </div>
             <div className="adultsCard">
                 <div className="adultsCardTitle">Why Adults Should Tap2Play</div>
