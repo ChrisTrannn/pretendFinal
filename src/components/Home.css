@@ -29,6 +29,13 @@
     margin: 1em 0em;
 }
 
+.learningCard:active {
+    background-color: #158ace;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
 .learningCards img {
     width: 8.5em;
     height: 6em;
@@ -41,7 +48,7 @@
     border-radius: 20px;
     width: 10.5em;
     height: 10.5em;
-    box-shadow: 0.3em 0.3em 1em gray;
+    box-shadow: 0.3em 0.3em 0.6em gray;
 }
 
 .learningCardTitle {
@@ -76,7 +83,14 @@
     border-radius: 20px;
     width: 10.5em;
     height: 13em;
-    box-shadow: 0.3em 0.3em 1em gray;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+}
+
+.infoCard:active {
+    background-color: #ca8f18;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+    transform: scale(1.02);
+    transition: 0.1s;
 }
 
 .dot {
@@ -111,7 +125,7 @@
 .infoCardText {
     font-size: 0.9em;
     text-align: center;
-    padding: 0.3em;
+    padding: 0.4em;
 }
 
 /* why adults should tap2play */
@@ -119,14 +133,14 @@
     background-color: #43A7E0;
     border-radius: 20px;
     width: 21.5em;
-    height: 22em;
     margin: 2em 0em;
-    box-shadow: 0.3em 0.3em 1em gray;
+    box-shadow: 0.3em 0.3em 0.6em gray;
     color: white;
 
     margin: auto;
     width: 90%;
     padding: 0.3em;
+    margin-bottom: 1em;
 }
 
 .adultsCardTitle {

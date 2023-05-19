@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./Home";
-import Marina from "./Marina";
-import Beach from "./Beach";
-import Construction from "./Construction";
-import TraderJoes from "./TraderJoes";
+import Marina from "./marina/Marina";
+import Beach from "./beach/Beach";
+import Construction from "./construction/Construction";
+import TraderJoes from "./traderjoes/TraderJoes";
 
 const RouteSwitch = () => {
   return (
