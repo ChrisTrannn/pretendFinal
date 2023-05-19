@@ -68,7 +68,6 @@ const Home = () => {
                     <div className="infoCardTitle">Map of Museum</div>
                     <div className='infoCardText'>Click to view Tap2Play signs in the museum</div>
                 </div>
-                {openModal && <Modal closeModal={setOpenModal}/>}
                 <div className='infoCard' onClick={() => setOpenModal2(true)}>
                     <span class="dot">
                         <img src={peopleIcon}></img>
@@ -76,8 +75,9 @@ const Home = () => {
                     <div className="infoCardTitle">About Tap2Play</div>
                     <div className='infoCardText'>Click to learn more about the Tap2Play team</div>
                 </div>
-                {openModal2 && <Modal2 closeModal2={setOpenModal2}/>}
             </div>
+            {openModal && <Modal closeModal={setOpenModal}/>}
+            {openModal2 && <Modal2 closeModal2={setOpenModal2}/>}
             <div className="adultsCard">
                 <div className="adultsCardTitle">Why Adults Should Tap2Play</div>
                 <div className="adultsCardText">

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Route, Link, Routes, useNavigate} from 'react-router-dom';
+import './Beach.css';
 
 const Beach = () => {
     const navigate = useNavigate();
@@ -11,7 +12,6 @@ const Beach = () => {
     return (
         <div>
             <button onClick={() => handleClick('/home')}>Back</button>	
-		    <p>Beach Page</p>
         </div>
     )
 }

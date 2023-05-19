@@ -1,4 +1,4 @@
-.modal .modalBtn {
+.modalBtn {
     border-radius: 20px;
     background-color: white;
     width: 20em;
@@ -6,10 +6,10 @@
     position: fixed;
     top: 35%;
     right: 10%;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
-.body {
+.modal .body {
     border-radius: 20px;
     background-color: white;
     width: 20em;
@@ -17,7 +17,9 @@
     position: fixed;
     top: 35%;
     right: 10%;
-    border: 2px solid black;
+    border: 1px solid black;
+    background-color: #F8F2EB;
+    box-shadow: 0.3em 0.3em 0.6em gray;
 }
 
 .modalClose {
@@ -33,4 +35,11 @@
     position: fixed;
     top: 73%;
     right: 40%;
+}
+
+.modal .body .text {
+    color: #51504C;
+    font-size: 0.92em;
+    padding: 1.3em;
+    font-family: 'Inter';
 }
