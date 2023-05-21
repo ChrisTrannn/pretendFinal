@@ -1,0 +1,126 @@
+/* top styling */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
+}
+
+.backButton {
+    width: 3em;
+    height: 3em;
+}
+
+.topTitle {
+    font-size: 1.4em;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #51504C;
+}
+
+.topCharacter {
+    width: 4em;
+    height: 5.5em;
+}
+
+/* image and description styling */
+.imageDesc {
+    margin-top: 1em;
+}
+
+.gif {
+    width: 90%;
+    border-radius: 15px;
+
+    /* center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageDescription {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0em 1.2em;
+    margin-top: 0.8em;
+}
+
+/* learning objectives styling */
+.learningObjectives {
+    margin-top: 0.8em;
+}
+.learningObjectivesTitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #51504C;
+    margin-left: 1.5em;
+}
+
+.objectiveCards {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin: 1em 0em;
+}
+
+.objectiveCards2 {
+    margin-top: 1.3em;
+}
+
+.objectiveCard {
+    background-color: #43A7E0;
+    font-family: 'Inter';
+    border-radius: 15px;
+    width: 10.5em;
+    height: 10.5em;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+}
+
+.objectiveCard:active {
+    background-color: #158ace;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+.objectiveTitle {
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.objectiveDescription {
+    font-size: 0.8em;
+    padding-top: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 0.8em;
+}
+
+/* what your child learned styling */
+/* why adults should tap2play */
+.childLearn {
+    background-color: #F7C359;
+    border-radius: 20px;
+    width: 21.5em;
+    margin: 2em 0em;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+    color: white;
+
+    margin: auto;
+    width: 90%;
+    padding: 0.3em;
+    margin-bottom: 1em;
+    margin-top: 1.3em;
+}
+
+.childLearnTitle {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0.7em 0.7em 0em 0.7em;
+}
+
+.childLearnDescription {
+    font-size: 1em;
+    padding: 1em;
+}
