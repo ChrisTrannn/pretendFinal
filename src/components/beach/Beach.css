@@ -12,7 +12,7 @@
 }
 
 .topTitle {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: 'Inter';
     font-weight: bold;
     color: #51504C;
@@ -29,7 +29,7 @@
 }
 
 .gif {
-    width: 23em;
+    width: 90%;
     border-radius: 15px;
 
     /* center image */
@@ -64,7 +64,7 @@
 }
 
 .objectiveCards2 {
-    margin-top: 1.8em;
+    margin-top: 1.3em;
 }
 
 .objectiveCard {
@@ -111,7 +111,7 @@
     width: 90%;
     padding: 0.3em;
     margin-bottom: 1em;
-    margin-top: 1.8em;
+    margin-top: 1.3em;
 }
 
 .childLearnTitle {
