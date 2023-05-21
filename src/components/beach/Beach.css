@@ -1,90 +1,126 @@
-.beachBody {
-    font-weight: bold;
-    background-color: #F8F2EB;
-    font-family: 'Inter', sans-serif;
+/* top styling */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
 }
 
-.heading {
+.backButton {
+    width: 3em;
+    height: 3em;
+}
+
+.topTitle {
+    font-size: 1.5em;
+    font-family: 'Inter';
     font-weight: bold;
-    margin-top: 1em;
-    font-size: 1.4em;
-    text-align: center;
     color: #51504C;
 }
 
-.picture {
-    margin-top: 1.2em;
+.topCharacter {
+    width: 4em;
+    height: 5.5em;
+}
+
+/* image and description styling */
+.imageDesc {
+    margin-top: 1em;
+}
+
+.gif {
+    width: 23em;
+    border-radius: 15px;
+
+    /* center image */
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    border-radius: 1em;
-    height: 16.5em;
-    width: 20em;
-    box-shadow: 0.3em 0.3em 0.6em gray;
 }
 
-.description {
-    font-size: .8em;
-    color: #51504C;
+.imageDescription {
+    font-size: 0.9em;
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    margin: 0em 1.2em;
+    margin-top: 0.8em;
 }
 
-.learning {
-    margin-left: 1.5em;
+/* learning objectives styling */
+.learningObjectives {
+    margin-top: 0.8em;
+}
+.learningObjectivesTitle {
     font-weight: bold;
+    font-size: 1.2em;
     color: #51504C;
+    margin-left: 1.5em;
 }
 
-* {
-    box-sizing: border-box;
-}
-  
-/* Float four columns side by side */
-.column {
-    font-size: .8em;
+.objectiveCards {
+    display: flex;
+    justify-content: space-evenly;
     color: white;
-    float: left;
-    width: 50%;
-    padding-bottom: 1em;
-    padding-left: .7em;
-    padding-right: 2em;
+    margin: 1em 0em;
 }
-  
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-    margin: .5em;
+
+.objectiveCards2 {
+    margin-top: 1.8em;
 }
-  
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-  
-/* Style the counter cards */
-.card {
-    width: 12.5em;
-    height: 13em;
-    border-radius: 1em;
-    padding: .5em;
-    text-align: center;
+
+.objectiveCard {
     background-color: #43A7E0;
+    font-family: 'Inter';
+    border-radius: 15px;
+    width: 10.5em;
+    height: 10.5em;
     box-shadow: 0.3em 0.3em 0.6em gray;
 }
-  
-.learned {
-    font-size: .8em;
-    color: white;
-    margin-left: 1em;
-    margin-right: 1.2em;
-    width: auto;
-    height: 6em;
-    border-radius: 1em;
-    padding: .2em;
-    text-align: center;
-    background-color: #F7C359;
-    margin-bottom: 1em;
+
+.objectiveCard:active {
+    background-color: #158ace;
     box-shadow: 0.3em 0.3em 0.6em gray;
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+.objectiveTitle {
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.objectiveDescription {
+    font-size: 0.8em;
+    padding-top: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 0.8em;
+}
+
+/* what your child learned styling */
+/* why adults should tap2play */
+.childLearn {
+    background-color: #F7C359;
+    border-radius: 20px;
+    width: 21.5em;
+    margin: 2em 0em;
+    box-shadow: 0.3em 0.3em 0.6em gray;
+    color: white;
+
+    margin: auto;
+    width: 90%;
+    padding: 0.3em;
+    margin-bottom: 1em;
+    margin-top: 1.8em;
+}
+
+.childLearnTitle {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0.7em 0.7em 0em 0.7em;
+}
+
+.childLearnDescription {
+    font-size: 1em;
+    padding: 1em;
 }
