@@ -41,7 +41,7 @@ const Home = () => {
                     <div className="learningCardTitle">Marina</div>
                 </div>
             </div>
-            <div className="learningCards">
+            <div className="learningCards learningCards2">
                 <div className="learningCard" onClick={() => handleClick('/construction')}>
                     <img src={constructionCartoon}></img>
                     <div className="learningCardTitle">Construction</div>
@@ -76,8 +76,10 @@ const Home = () => {
                     <div className='infoCardText'>Click to learn more about the Tap2Play team</div>
                 </div>
             </div>
+
             {openModal && <Modal closeModal={setOpenModal}/>}
             {openModal2 && <Modal2 closeModal2={setOpenModal2}/>}
+            
             <div className="adultsCard">
                 <div className="adultsCardTitle">Why Adults Should Tap2Play</div>
                 <div className="adultsCardText">
