@@ -1,9 +1,14 @@
 import React from 'react';
-import {Route, Link, Routes, useNavigate} from 'react-router-dom';
-import './Beach.css';
 import beachGIF from './beach.gif';
 import backButton from '../../assets/backButton.png'
 import pcCharacter from '../../assets/pcCharacter.png'
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import './Beach.css';
+import BModal1 from './BModal1';
+import BModal2 from './BModal2';
+import BModal3 from './BModal3';
+import BModal4 from './BModal4';
 
 const Beach = () => {
     const navigate = useNavigate();
@@ -11,6 +16,11 @@ const Beach = () => {
     const handleClick = (route) => {
         navigate(route, { replace: true });
     };
+
+    const [openModal, setOpenModal] = useState(false);
+    const [openModal2, setOpenModal2] = useState(false);
+    const [openModal3, setOpenModal3] = useState(false);
+    const [openModal4, setOpenModal4] = useState(false);
 
     return (
         <div>
@@ -36,7 +46,7 @@ const Beach = () => {
                     Learning Objectives
                 </div>
                 <div className='objectiveCards'>
-                    <div className='objectiveCard'>
+                    <div className='objectiveCard' onClick={() => setOpenModal(true)}>
                         <div className='objectiveTitle'>
                             Museum Activities
                         </div>
@@ -44,7 +54,7 @@ const Beach = () => {
                             Click to learn about a museum activity
                         </div>
                     </div>
-                    <div className='objectiveCard'>
+                    <div className='objectiveCard' onClick={() => setOpenModal2(true)}>
                         <div className='objectiveTitle'>
                             At Home Activities
                         </div>
@@ -54,8 +64,10 @@ const Beach = () => {
                         </div>
                     </div>
                 </div>
+                {openModal && <BModal1 closeModal={setOpenModal}/>}
+                {openModal2 && <BModal2 closeModal2={setOpenModal2}/>}
                 <div className='objectiveCards objectiveCards2'>
-                    <div className='objectiveCard'>
+                    <div className='objectiveCard' onClick={() => setOpenModal3(true)}>
                         <div className='objectiveTitle'>
                             Science Concepts
                         </div>
@@ -63,7 +75,7 @@ const Beach = () => {
                             Click to learn more about how a boat floats on water
                         </div>
                     </div>
-                    <div className='objectiveCard'>
+                    <div className='objectiveCard' onClick={() => setOpenModal4(true)}>
                         <div className='objectiveTitle'>
                             Fun Facts
                         </div>
@@ -72,6 +84,8 @@ const Beach = () => {
                         </div>
                     </div>
                 </div>
+                {openModal3 && <BModal3 closeModal3={setOpenModal3}/>}
+                {openModal4 && <BModal4 closeModal4={setOpenModal4}/>}
             </div>
 
             <div className='childLearn'>
