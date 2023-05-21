@@ -1,12 +1,12 @@
 import './Home.css'
-import HowToVideo from '../assets/tap2playhowto.mp4';
-import Tap2PlayLogo from '../assets/tap2playlogo.png';
-import beachCartoon from '../assets/beachCartoon.jpg';
-import marinaCartoon from '../assets/marinaCartoon.jpg'
-import constructionCartoon from '../assets/constructionCartoon.jpg'
-import traderJoesCartoon from '../assets/traderJoesCartoon.jpeg'
-import mapIcon from '../assets/mapIcon.png'
-import peopleIcon from '../assets/peopleIcon.png'
+import HowToVideo from '../../assets/tap2playhowto.mp4';
+import Tap2PlayLogo from '../../assets/tap2playlogo.png';
+import beachCartoon from '../../assets/beachCartoon.jpg';
+import marinaCartoon from '../../assets/marinaCartoon.jpg'
+import constructionCartoon from '../../assets/constructionCartoon.jpg'
+import traderJoesCartoon from '../../assets/traderJoesCartoon.jpeg'
+import mapIcon from '../../assets/mapIcon.png'
+import peopleIcon from '../../assets/peopleIcon.png'
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import Modal from './Modal';

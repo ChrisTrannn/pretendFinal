@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css'
-import pretendMap from '../assets/pretendMap.png'
+import pretendMap from '../../assets/pretendMap.png'
 
 const Modal = ({closeModal}) => {
     return (
