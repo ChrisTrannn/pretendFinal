@@ -27,7 +27,7 @@ const Beach = () => {
 
             <div className='top'>
                 <img src={backButton} onClick={() => handleClick('/home')} className='backButton'></img>
-                <div className='topTitle'>Welcome to the Beach</div>
+                <div className='topTitle'>Beach Zone</div>
                 <img className='topCharacter' src={pcCharacter}></img>
             </div>
 
