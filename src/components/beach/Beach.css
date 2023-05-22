@@ -124,3 +124,52 @@
     font-size: 1em;
     padding: 1em;
 }
+
+/* media queries */
+@media screen and (min-width: 500px) {
+    .main {
+        margin: 2% 10%;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .main {
+        margin: 2% 18%;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main {
+        margin: 2% 25%;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main {
+        margin: 2% 30%;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        margin: 2% 35%;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .main {
+        margin: 2% 35%;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}

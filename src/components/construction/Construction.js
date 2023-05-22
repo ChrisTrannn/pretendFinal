@@ -23,7 +23,7 @@ const Construction = () => {
     const [openModal4, setOpenModal4] = useState(false);
 
     return (
-        <div>
+        <div className='main'>
 
             <div className='top'>
                 <img src={backButton} onClick={() => handleClick('/home')} className='backButton'></img>
