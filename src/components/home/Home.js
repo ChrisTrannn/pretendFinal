@@ -23,7 +23,7 @@ const Home = () => {
     const [openModal2, setOpenModal2] = useState(false);
 
     return (
-        <div>
+        <div className='main'>
 
             <div className="header">
                 <img className='item tap2playlogo' src={Tap2PlayLogo}></img>
