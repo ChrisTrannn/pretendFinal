@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pretendFinal/static/css/main.0a204d6f.css",
+    "main.css": "/pretendFinal/static/css/main.50e02bc3.css",
     "main.js": "/pretendFinal/static/js/main.4341b804.js",
     "static/js/787.818ebf98.chunk.js": "/pretendFinal/static/js/787.818ebf98.chunk.js",
     "static/media/tap2playhowto.mp4": "/pretendFinal/static/media/tap2playhowto.ce43040bde2f0adbed75.mp4",
@@ -16,12 +16,12 @@
     "static/media/traderJoesCartoon.jpeg": "/pretendFinal/static/media/traderJoesCartoon.c48ee2b0d97c7a1d2a90.jpeg",
     "static/media/tap2playlogo.png": "/pretendFinal/static/media/tap2playlogo.75affe697c632d2eecb4.png",
     "index.html": "/pretendFinal/index.html",
-    "main.0a204d6f.css.map": "/pretendFinal/static/css/main.0a204d6f.css.map",
+    "main.50e02bc3.css.map": "/pretendFinal/static/css/main.50e02bc3.css.map",
     "main.4341b804.js.map": "/pretendFinal/static/js/main.4341b804.js.map",
     "787.818ebf98.chunk.js.map": "/pretendFinal/static/js/787.818ebf98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a204d6f.css",
+    "static/css/main.50e02bc3.css",
     "static/js/main.4341b804.js"
   ]
 }
