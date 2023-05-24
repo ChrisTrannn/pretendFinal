@@ -93,7 +93,11 @@ const Marina = () => {
                     What Your Child Learned
                 </div>
                 <div className='childLearnDescription'>
-                    Your child learned about buoyancy, water tension, and more!
+                    Building a boat teaches visitors about 
+                    engineering, design, and problem-solving. 
+                    They learn about buoyancy, stability, and 
+                    weight distribution while experimenting with 
+                    different materials and shapes.
                 </div>
             </div>
         </div>

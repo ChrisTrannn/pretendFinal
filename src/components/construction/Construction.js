@@ -93,7 +93,13 @@ const Construction = () => {
                     What Your Child Learned
                 </div>
                 <div className='childLearnDescription'>
-                    Your child learned about buoyancy, water tension, and more!
+                    Visitors develop spatial awareness, hand-eye
+                    coordination, and problem-solving skills from
+                    this activity. They learn about balance and
+                    stability while exploring basic engineering 
+                    concepts. This hands-on experience fosters creativity, 
+                    fine motor skills, and an appreciation for construction 
+                    and engineering.
                 </div>
             </div>
         </div>

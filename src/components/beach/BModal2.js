@@ -5,9 +5,7 @@ const BModal2 = ({closeModal2}) => {
     return (
         <div className='modal'>
             <div className='body'>
-                <div className='text'>
-                    
-                </div>
+                <iframe src='https://www.youtube.com/embed/W4jbx5WLhy4'></iframe>
             </div>
             <button className='modalClose' onClick={() => closeModal2(false)}> Close </button>
         </div>

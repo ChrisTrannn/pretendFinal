@@ -93,7 +93,9 @@ const Beach = () => {
                     What Your Child Learned
                 </div>
                 <div className='childLearnDescription'>
-                    Your child learned about buoyancy, water tension, and more!
+                    Visitors will examine the behavior of 
+                    the water interacting with the sand and 
+                    observe how the sand will absorb/obtain the water.
                 </div>
             </div>
         </div>

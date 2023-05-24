@@ -9,32 +9,40 @@
     border: 1px solid black;
 }
 
-.modal .body {
+.modal .body, .modal iframe, .modal img {
     border-radius: 20px;
     background-color: white;
     width: 20em;
     height: 20em;
-    position: fixed;
-    top: 35%;
-    right: 10%;
     border: 1px solid black;
     background-color: #F8F2EB;
     box-shadow: 0.3em 0.3em 0.6em gray;
+
+    /* positioning of the modal body*/
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
 }
 
 .modalClose {
     border-radius: 15px;
     background-color: #F7C359;
     color: white;
-    border: none;
-    width: 7em;
-    height: 2em;
+    border: 1px solid black;
+    width: 5em;
+    height: 2.5em;
     font-weight: 300;
     margin: 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0.5em;
 
+    /* positioning of the close button*/
     position: fixed;
     top: 73%;
-    right: 40%;
+    right: 50%;
+    transform: translate(50%, -50%);
 }
 
 .modal .body .text {

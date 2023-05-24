@@ -93,7 +93,12 @@ const Beach = () => {
                     What Your Child Learned
                 </div>
                 <div className='childLearnDescription'>
-                    Your child learned about buoyancy, water tension, and more!
+                    Through the activity of using a shopping 
+                    cart and playing a "Price Guessing" game, 
+                    visitors learn math skills, understand the 
+                    value of money, and develop organizational 
+                    abilities. It fosters financial literacy, 
+                    decision-making, and responsibility.
                 </div>
             </div>
         </div>
