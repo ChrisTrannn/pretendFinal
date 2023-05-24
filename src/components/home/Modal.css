@@ -30,19 +30,19 @@
     background-color: #F7C359;
     color: white;
     border: 1px solid black;
-    width: 5em;
-    height: 2.5em;
+    width: 8em;
+    height: 3em;
     font-weight: 300;
     margin: 1em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600;
     padding: 0.5em;
 
     /* positioning of the close button*/
     position: fixed;
-    top: 73%;
+    top: 75%;
     right: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(60%, -50%);
 }
 
 .modal .body .text {
