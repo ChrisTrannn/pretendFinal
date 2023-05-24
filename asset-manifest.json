@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pretendFinal/static/css/main.122b588a.css",
-    "main.js": "/pretendFinal/static/js/main.7937321b.js",
+    "main.css": "/pretendFinal/static/css/main.8a535537.css",
+    "main.js": "/pretendFinal/static/js/main.6357eb96.js",
     "static/js/787.818ebf98.chunk.js": "/pretendFinal/static/js/787.818ebf98.chunk.js",
     "static/media/tap2playhowto.mp4": "/pretendFinal/static/media/tap2playhowto.ce43040bde2f0adbed75.mp4",
     "static/media/manof.gif": "/pretendFinal/static/media/manof.735ae44a1203b448118e.gif",
@@ -16,12 +16,12 @@
     "static/media/traderJoesCartoon.jpeg": "/pretendFinal/static/media/traderJoesCartoon.c48ee2b0d97c7a1d2a90.jpeg",
     "static/media/tap2playlogo.png": "/pretendFinal/static/media/tap2playlogo.75affe697c632d2eecb4.png",
     "index.html": "/pretendFinal/index.html",
-    "main.122b588a.css.map": "/pretendFinal/static/css/main.122b588a.css.map",
-    "main.7937321b.js.map": "/pretendFinal/static/js/main.7937321b.js.map",
+    "main.8a535537.css.map": "/pretendFinal/static/css/main.8a535537.css.map",
+    "main.6357eb96.js.map": "/pretendFinal/static/js/main.6357eb96.js.map",
     "787.818ebf98.chunk.js.map": "/pretendFinal/static/js/787.818ebf98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.122b588a.css",
-    "static/js/main.7937321b.js"
+    "static/css/main.8a535537.css",
+    "static/js/main.6357eb96.js"
   ]
 }
