@@ -6,7 +6,12 @@ const JModal4 = ({closeModal4}) => {
         <div className='modal'>
             <div className='body'>
                 <div className='text'>
-                    joes 4
+                    Did you know that the largest 
+                    denomination of U.S. currency 
+                    ever printed was the $100,000 bill? 
+                    They were used for transactions between 
+                    Federal Reserve Banks and were mainly 
+                    used for internal accounting purposes. 
                 </div>
             </div>
             <button className='modalClose' onClick={() => closeModal4(false)}> Close </button>
